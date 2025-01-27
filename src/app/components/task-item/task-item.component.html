@@ -1,0 +1,9 @@
+<div class="d-flex justify-content-between align-items-center">
+    <span [ngClass]="{'text-decoration-line-through': task.completed}">
+        {{ task.title}}
+    </span>
+    <div>
+        <button class="btn btn-success btn-sm" (click)="completeTask()" [disabled]="task.completed">Complete</button>
+        <button class="btn btn-danger btn-sm" (click)="deleteTask()">Delete</button>
+    </div>
+</div>

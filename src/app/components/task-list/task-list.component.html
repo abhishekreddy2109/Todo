@@ -1,0 +1,21 @@
+<button (click)="showCompleted = false; editMode = false">Active</button>
+<button (click)="showCompleted = true; editMode = false">Completed</button>
+<button (click)="toggleEditMode()">Edit</button>
+<!-- 
+<a href="https://goldbiz.finvedik.com" target="_blank">
+    <button>goldbizzlink</button> -->
+
+<ul class="list-group">
+    <li *ngFor="let task of filteredTasks" class="list-group-item">
+        <!-- Edit Mode View -->
+        <div *ngIf="editMode; else viewMode">
+            <input [(ngModel)]="task.title" class="form-control" />
+            <button class="btn btn-primary btn-sm" (click)="saveTask()">Save</button>
+        </div>
+
+        <!-- Normal View Mode -->
+        <ng-template #viewMode>
+            <app-task-item [task]="task"></app-task-item>
+        </ng-template>
+    </li>
+</ul>
