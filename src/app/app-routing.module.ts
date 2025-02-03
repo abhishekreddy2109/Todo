@@ -5,8 +5,9 @@ import { TaskFormComponent } from './components/task-form/task-form.component';
 //import { TaskEditComponent } from './task-edit/task-edit.component';
 const routes: Routes = [
   { path: '', component: TaskListComponent },
-  { path: 'add', component: TaskFormComponent }
+  { path: 'add', component: TaskFormComponent },
   //{ path: 'edit', component: TaskEditComponent }
+  { path: 'budgetplanner', loadChildren: () => import('./budgetplanner/budgetplanner.module').then(m => m.BudgetplannerModule) }
 ];
 
 @NgModule({
