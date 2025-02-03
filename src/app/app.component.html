@@ -13,16 +13,21 @@
       <li class="nav-item">
         <a class="nav-link" href="https://goldbiz.finvedik.com" target="_blank">goldbizzlink</a>
       </li>
+
+
     </ul>
   </div>
 </nav>
 
 
-<div class="container mt-5"> <!-- Main content container with top margin -->
-  <h1 class="text-center mb-4">ToDo List</h1> <!-- Centered title for the ToDo List -->
-  <!-- Placeholder for displaying routed components based on navigation -->
-  <router-outlet></router-outlet>
-</div>
 <router-outlet></router-outlet>
 
-<router-outlet></router-outlet>
+<div *ngIf="showCard" class="card-container d-flex justify-content-center mt-4">
+  <div class="card shadow-lg p-3" (click)="goToBudgetPlanner()" style="cursor: pointer; width: 300px; ">
+    <img src="assets/images/budgetplanner.webp" alt="Budget Planner" class="card-img-top">
+    <div class="card-body text-center">
+      <h5 class="card-title">Budget Planner</h5>
+      <p class="card-text">Manage your income and expenses efficiently.</p>
+    </div>
+  </div>
+</div>
