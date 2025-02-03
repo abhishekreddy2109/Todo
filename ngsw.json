@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1738568411549,
+  "index": "https://abhishekreddy2109.github.io/Todo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://abhishekreddy2109.github.io/Todo/620.f080e320eb53c64b.js",
+        "https://abhishekreddy2109.github.io/Todo/favicon.ico",
+        "https://abhishekreddy2109.github.io/Todo/index.html",
+        "https://abhishekreddy2109.github.io/Todo/main.f436baac6c981675.js",
+        "https://abhishekreddy2109.github.io/Todo/manifest.webmanifest",
+        "https://abhishekreddy2109.github.io/Todo/polyfills.356ad84a1245d2f0.js",
+        "https://abhishekreddy2109.github.io/Todo/runtime.03e39cce17a61fb3.js",
+        "https://abhishekreddy2109.github.io/Todo/styles.7053027e9dd82bac.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-128x128.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-144x144.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-152x152.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-192x192.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-384x384.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-512x512.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-72x72.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-96x96.png",
+        "https://abhishekreddy2109.github.io/Todo/assets/images/budgetplanner.webp"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://abhishekreddy2109.github.io/Todo/620.f080e320eb53c64b.js": "4611345bc6cc2c6a3feb8348fe9bddc7b5a97193",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "https://abhishekreddy2109.github.io/Todo/assets/images/budgetplanner.webp": "fc3b54b628cb0bec3ae61833a7e55ebb7b116081",
+    "https://abhishekreddy2109.github.io/Todo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://abhishekreddy2109.github.io/Todo/index.html": "f900731a383fc26359cfc86558f1f7d1b6c6b123",
+    "https://abhishekreddy2109.github.io/Todo/main.f436baac6c981675.js": "cd1f653ade3d99c45751c4b4ede11eba2e3a8caa",
+    "https://abhishekreddy2109.github.io/Todo/manifest.webmanifest": "381bc8ee9af0ce20768130c2d92316a13b24057a",
+    "https://abhishekreddy2109.github.io/Todo/polyfills.356ad84a1245d2f0.js": "62800f9665dc886c4c0fad4ca71d8d42bb4b16e8",
+    "https://abhishekreddy2109.github.io/Todo/runtime.03e39cce17a61fb3.js": "eaf8060fb2ee087e677decb4ea7aed5938d0b028",
+    "https://abhishekreddy2109.github.io/Todo/styles.7053027e9dd82bac.css": "9143cfefcc7a76908559392acdf0f6283fd25713"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
