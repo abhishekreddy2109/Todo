@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1738641995951,
+  "timestamp": 1738642396308,
   "index": "https://abhishekreddy2109.github.io/Todo/index.html",
   "assetGroups": [
     {
@@ -22,7 +22,7 @@
         "https://abhishekreddy2109.github.io/Todo/894.bdf27eff19c7f622.js",
         "https://abhishekreddy2109.github.io/Todo/favicon.ico",
         "https://abhishekreddy2109.github.io/Todo/index.html",
-        "https://abhishekreddy2109.github.io/Todo/main.f1675d7f51b19b56.js",
+        "https://abhishekreddy2109.github.io/Todo/main.f36b38826c4f9da8.js",
         "https://abhishekreddy2109.github.io/Todo/manifest.webmanifest",
         "https://abhishekreddy2109.github.io/Todo/polyfills.84232a0ee9e5336f.js",
         "https://abhishekreddy2109.github.io/Todo/styles.7053027e9dd82bac.css"
@@ -71,8 +71,8 @@
     "https://abhishekreddy2109.github.io/Todo/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "https://abhishekreddy2109.github.io/Todo/assets/images/budgetplanner.webp": "fc3b54b628cb0bec3ae61833a7e55ebb7b116081",
     "https://abhishekreddy2109.github.io/Todo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://abhishekreddy2109.github.io/Todo/index.html": "8ad320f907a666a480f5c5d79f93bd5ee7035361",
-    "https://abhishekreddy2109.github.io/Todo/main.f1675d7f51b19b56.js": "3458a2588d8a580845dcc1063f224f8a0431ec5d",
+    "https://abhishekreddy2109.github.io/Todo/index.html": "3eab706274c055a9b11b3801c21ba8f4a150eb41",
+    "https://abhishekreddy2109.github.io/Todo/main.f36b38826c4f9da8.js": "7320e856aaa67d10b9e75a5aec236d4eb6faee2f",
     "https://abhishekreddy2109.github.io/Todo/manifest.webmanifest": "381bc8ee9af0ce20768130c2d92316a13b24057a",
     "https://abhishekreddy2109.github.io/Todo/polyfills.84232a0ee9e5336f.js": "772aa094632ad1986aadd52d9d6f05be30bd50e7",
     "https://abhishekreddy2109.github.io/Todo/styles.7053027e9dd82bac.css": "9143cfefcc7a76908559392acdf0f6283fd25713"
