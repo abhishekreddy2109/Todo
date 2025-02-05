@@ -14,7 +14,9 @@ export class AppComponent {
     });
   }
 
-
+  navigateToRecipe() {
+    this.router.navigate(['/recipe']);  // This will load the RecipeModule via Module Federation
+  }
   goToBudgetPlanner() {
     this.router.navigate(['/budgetplanner']);
   }
