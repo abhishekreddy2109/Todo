@@ -11,10 +11,10 @@ const routes: Routes = [
     loadChildren: () =>
       import('./budgetplanner/budgetplanner.module').then((m) => m.BudgetplannerModule),
   },
-  // {
-  //   path: 'recipe',
-  //   loadChildren: () => import('recipe/RecipeModule').then(m => m.RecipeModule)
-  // },
+  {
+    path: 'recipe',
+    loadChildren: () => import('recipe/RecipeModule').then(m => m.RecipeModule)
+  },
 ];
 
 @NgModule({
